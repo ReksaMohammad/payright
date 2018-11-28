@@ -1,0 +1,241 @@
+@media (max-width: 768px) { 
+  /* --------------- Page 1 --------------- */
+  .navbar .navbar-brand img {
+    width: 50%;
+  }
+
+  .bg1-text h1 {
+    margin-top: 25vh;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .bg1-hero img {
+    position: absolute;
+    z-index: -1;
+    left: -45%;
+    margin-top: -42.5vh;
+  }
+
+  .btn1 {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+  }
+
+  .btn2 {
+    width: 25%;
+    margin-left: 37.5%;
+    margin-right: 37.5%;
+  }
+  /* --------------- Page 1 End --------------- */
+  /* --------------- Page 2 --------------- */
+  .page-2 {
+    margin-top: 10vh;
+  }
+
+  .page-2 .bg2 .col-sm-6 img {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .page-2 .bg2 .col-sm-5 h1 {
+    margin-top: 35px;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    display: none;
+  }
+
+  .cara-kerja h1 {
+    margin-top: 10px;
+  }
+  /* --------------- Page 2 End --------------- */
+}
+
+@media (max-width: 736px) { 
+  /* --------------- Page 1 --------------- */
+  .navbar .navbar-brand img {
+    width: 50%;
+  }
+
+  .bg1-text h1 {
+   font-size: 15px;
+   margin-top: 60vh;
+  }
+
+  .bg img {
+    display: none;
+  }
+
+  .bg1-hero img {
+    position: absolute;
+    z-index: -1;
+    left: -55%;
+    margin-top: -100vh;
+  }
+  /* --------------- Page 1 End --------------- */
+  /* --------------- Page 2 --------------- */
+  .page-2 {
+    margin-top: 20vh;
+  }
+
+  .page-2 .bg2 .col-sm-6 img {
+    width: 100%;
+    margin-bottom: 175px;
+  }
+  /* --------------- Page 2 End --------------- */
+}
+
+ @media (max-width: 576px) { 
+  /* --------------- Page 1 --------------- */
+  .bg1-text h1 {
+   font-size: 20px;
+   margin-top: 50vh;
+   margin-bottom: 20px;
+  }
+
+  .bg1-hero img {
+    position: absolute;
+    z-index: -1;
+    left: 5%;
+    margin-top: -75vh;
+    width: 75vw;
+  }
+
+  .btn1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .btn2 {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  /* --------------- Page 1 End --------------- */
+  /* --------------- Page 2 --------------- */
+  .page-2 {
+    margin-top: 10vh;
+  }
+
+  .text-2 h1 {
+    font-size: 25px;
+  }
+
+  .text-2 p {
+    font-size: 18px;
+  }
+
+  .row .col-sm-2 h1 {
+    font-size: 20px;
+  }
+
+  .row .col-sm-2 p {
+    font-size: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .page-2 .bg2 img {
+    max-width: 100%;
+  }
+
+  .page-2 .bg2 .col-sm-5 h1 {
+    text-align: center !important;
+    margin-top: -15vh;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .page-2 .bg2 .col-sm-5 h2 {
+    text-align: center !important;
+    font-weight: bold;
+  }
+
+  .page-2 .bg2 .col-sm-5 p {
+    font-size: 15px;
+    text-align: center !important;
+  }
+
+  .btn3 {
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  
+  .pisah {
+    margin-top: 30vh;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    display: none; 
+  }
+
+  .btn3 {
+    margin-top: 2.5vh;
+  }
+
+  .cara-kerja h1 {
+    margin-top: -75px;
+  }
+  
+  .cara-kerja p {
+    display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  .icon-kontak img {
+    margin: 20px;
+  }
+  
+  .kontak p {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .text-kontak p {
+    margin: 15px;
+  }
+
+  .bg-page-3 img {
+    height: 350px;
+  }
+  /* --------------- Page 2 End --------------- */
+}
+
+@media (max-width: 360px) { 
+  /* --------------- Page 1 --------------- */
+  .navbar-toggler-icon {
+    background-image: url("../img/menu.svg") !important;
+    width: 25px;
+  }
+
+  .bg1-text h1 {
+   font-size: 18px;
+   margin-top: 40vh;
+  }
+
+  .bg1-hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -85vh;
+  }
+  /* --------------- Page 1 End --------------- */
+  /* --------------- Page 2 --------------- */
+  .page-2 {
+    margin-top: 20vh;
+  }
+
+  .page-2 .bg2 .col-sm-6 img {
+    width: 100%;
+    margin-bottom: 175px;
+  }
+  /* --------------- Page 2 End --------------- */
+}
