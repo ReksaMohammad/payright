@@ -328,10 +328,10 @@ p {
 /* --------------- Page 3 --------------- */
 
 .bg-page-3 img {
-  background-size: cover;
   position: absolute;
   left: 0;
   z-index: -1;
+  max-width: 100%;
 }
 
 .kontak {
