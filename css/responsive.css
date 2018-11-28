@@ -147,7 +147,7 @@
     text-align: center !important;
     margin-top: -15vh;
     font-size: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .page-2 .bg2 .col-sm-5 h2 {
@@ -187,7 +187,7 @@
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .icon-kontak img {
@@ -196,7 +196,7 @@
   
   .kontak p {
     width: 90%;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .text-kontak p {
@@ -204,7 +204,7 @@
   }
 
   .bg-page-3 img {
-    height: 350px;
+    height: 300px;
   }
   /* --------------- Page 2 End --------------- */
 }
@@ -225,7 +225,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -85vh;
+    margin-top: -75vh;
   }
   /* --------------- Page 1 End --------------- */
   /* --------------- Page 2 --------------- */
