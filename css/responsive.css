@@ -19,7 +19,7 @@
     position: absolute;
     z-index: -1;
     left: -45%;
-    margin-top: -42.5vh;
+    margin-top: -35vh;
   }
 
   .btn1 {
@@ -36,38 +36,65 @@
   /* --------------- Page 1 End --------------- */
   /* --------------- Page 2 --------------- */
   .page-2 {
-    margin-top: 10vh;
+    margin-top: -10vh;
   }
 
-  .page-2 .bg2 .col-sm-6 img {
-    width: 100%;
-    margin-bottom: 100px;
+  .page-2 .bg2 .row .apa-saja {
+    margin-top: -5vh;
+  }
+  
+  .page-2 .bg2 .row .apa-saja h1 {
+    font-size: 15px; 
   }
 
-  .page-2 .bg2 .col-sm-5 h1 {
-    margin-top: 35px;
+  .page-2 .bg2 .row .apa-saja p {
+    font-size: 12px; 
   }
 
-  .carousel-control-prev, .carousel-control-next {
+  .page-2 .bg2 .row .apa-saja button {
+    width: 40%;
+    margin-right: 5%;
+  }
+
+  /* --------------- Jasa ----------------- */
+
+  .page-2 .bg2 .jasa {
+    margin-top: 5vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 {
+  margin-top: -80px;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
+    height: 200px;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner img{
     display: none;
   }
 
-  .cara-kerja h1 {
-    margin-top: 10px;
+  /* --------------- Cara Kerja --------------- */
+
+  .cara-kerja .col-sm-6 img {
+    max-width: 100%;
+    margin-top: 10vh;
   }
 
-  .bg-page-3 img {
-    height: 275px;
+  /* --------------- Icon Contact --------------- */
+
+  .page-4 .col-sm-1 img {
+    width: 40px;
+    margin-top: 2.5vh;
   }
-  /* --------------- Page 2 End --------------- */
+
+  .page-4 .col-sm-1 p {
+    display: none;
+  }
 }
 
 @media (max-width: 736px) { 
   /* --------------- Page 1 --------------- */
-  .navbar .navbar-brand img {
-    width: 50%;
-  }
-
   .bg1-text h1 {
    font-size: 15px;
    margin-top: 60vh;
@@ -78,10 +105,8 @@
   }
 
   .bg1-hero img {
-    position: absolute;
-    z-index: -1;
     left: -55%;
-    margin-top: -100vh;
+    margin-top: -75vh;
   }
   /* --------------- Page 1 End --------------- */
   /* --------------- Page 2 --------------- */
@@ -89,14 +114,27 @@
     margin-top: 20vh;
   }
 
-  .page-2 .bg2 .col-sm-6 img {
-    width: 100%;
-    margin-bottom: 175px;
+  .apa-saja .col-sm-5 h1 {
+    font-size: 18px;
   }
+
+  .apa-saja .col-sm-5 p {
+    font-size: 12px;
+  }
+
+  .page-2 .bg2 .jasa .img-jasa img {
+    margin-top: 10vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 h1 {
+    font-size: 15px;
+    margin-top: 20vh;
+  }
+
   /* --------------- Page 2 End --------------- */
 }
 
- @media (max-width: 576px) { 
+@media (max-width: 576px) { 
   /* --------------- Page 1 --------------- */
   .bg1-text h1 {
    font-size: 20px;
@@ -105,10 +143,8 @@
   }
 
   .bg1-hero img {
-    position: absolute;
-    z-index: -1;
     left: 5%;
-    margin-top: -75vh;
+    margin-top: -65vh;
     width: 75vw;
   }
 
@@ -117,28 +153,23 @@
     margin-left: 25%;
     margin-right: 25%;
   }
-
-  .btn2 {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
   /* --------------- Page 1 End --------------- */
   /* --------------- Page 2 --------------- */
   .page-2 {
-    margin-top: 10vh;
+    margin-top: 0vh;
   }
 
-  .text-2 h1 {
+  .page-2 .layanan h1 {
     font-size: 25px;
+    margin-top: -10vh;
   }
 
-  .text-2 p {
-    font-size: 18px;
+  .page-2 .bg2 .row .icon {
+    margin-top: 0vh;
   }
 
   .row .col-sm-2 h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .row .col-sm-2 p {
@@ -169,77 +200,179 @@
     text-align: center !important;
   }
 
-  .btn3 {
-    width: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
-  }
-  
-  .pisah {
-    margin-top: 30vh;
-  }
-
-  .carousel-control-prev, .carousel-control-next {
-    display: none; 
-  }
-
-  .btn3 {
-    margin-top: 2.5vh;
-  }
-
-  .cara-kerja h1 {
-    margin-top: -75px;
-  }
-  
-  .cara-kerja p {
-    display: block;
-    max-width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 15px;
-  }
-
-  .icon-kontak img {
-    margin: 20px;
-  }
-  
-  .kontak p {
-    width: 90%;
-    font-size: 15px;
-  }
-
-  .text-kontak p {
-    margin: 10px;
-  }
-
-  .bg-page-3 img {
-    height: 300px;
-  }
-  /* --------------- Page 2 End --------------- */
-}
-
-@media (max-width: 360px) { 
-  /* --------------- Page 1 --------------- */
-  .bg1-text h1 {
-   font-size: 18px;
-   margin-top: 40vh;
-  }
-
-  .bg1-hero img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -75vh;
-  }
-  /* --------------- Page 1 End --------------- */
-  /* --------------- Page 2 --------------- */
-  .page-2 {
+  /* --------------- Apasaja --------------- */
+  .page-2 .bg2 .row .apa-saja {
     margin-top: 20vh;
   }
 
-  .page-2 .bg2 .col-sm-6 img {
-    width: 100%;
-    margin-bottom: 175px;
+  .page-2 .bg2 .row .apa-saja .col-sm-5 h1 {
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-5 p {
+    font-size: 15px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-5 button {
+    left: -7.5%;
+  }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-3 {
+    text-align: center;
+    margin-top: 15vh;
+  }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-3 img {
+    width: 75px;
+  }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-3 h1 {
+    display: block;
+    left: 0;
+    position: inherit;
+    font-size: 18px;
+  }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-3 p {
+    font-size: 15px;
+    margin-top: 15px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-2 .bg2 .row .apa-saja .jasa2 {
+    margin-top: -5px;
+  }
+
+  /* -------------------- Jasa -------------------- */
+
+  .page-2 .bg2 .jasa-img {
+    height: 1300px;
+  }
+
+  .page-2 .bg2 .jasa .row .img-jasa {
+    margin-top: 5vh;
+  }
+
+  .page-2 .bg2 .jasa .row .col-sm-5 h1 {
+    font-size: 20px;
+    margin-top: 10vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
+    height: 300px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner img {
+    display: inherit;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+    top: 30px;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner P {
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    margin-top: 20vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .one p {
+    top: 0;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .two p {
+    top: 0;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .three p {
+    top: 0;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel .carousel-control-prev {
+  display: none;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel .carousel-control-next {
+    display: none;
+  }
+
+  /* ---------------- CaraKerja ---------------- */
+
+  .cara-kerja {
+    text-align: center;
+  }
+
+  .cara-kerja p {
+    text-align: justify;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cara-kerja .col-sm-6 img {
+    margin-top: -5vh;
+  }
+  
+  /* ----------------- Kontak ------------------ */
+  .page-4 .col-sm-6 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .page-4 .col-sm-6 p {
+    text-align: justify;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .page-4 .col-sm-1 img {
+    position: absolute;
+    margin-top: 25px;
+  }
+  .page-4 .wa img {
+    left: 27.5%;
+  }
+  .page-4 .mail img {
+    right: 0%;
+  }
+}
+
+@media (max-width: 415px) {
+  .page-2 .bg2 .jasa {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 376px) {
+
+  .bg1-hero img {
+    margin-top: -70vh;
+  }
+
+  .page-2 .layanan h1 {
+    font-size: 18px;
+  }
+
+  .row .col-sm-2 h1 {
+    font-size: 15px;
+  }
+
+  .page-2 .bg2 .jasa-img {
+    height: 1250px;
+  }
+  
   /* --------------- Page 2 End --------------- */
 }
