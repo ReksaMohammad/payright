@@ -6,7 +6,8 @@
   }
 
   .navbar .navbar-brand img {
-    width: 50%;
+    margin-left: 10px;
+    width: 100px;
   }
 
   /* --------------- Hero --------------- */

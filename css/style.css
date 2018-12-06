@@ -64,8 +64,12 @@ p {
 /* MAIN */
 /* --------------- Navbar --------------- */
 .navbar .navbar-brand img {
-  width: 75%;
+  width: 150px;
   margin: 0px;
+}
+
+.navbar {
+  transition: 1s;
 }
 
 .navbar-nav {
@@ -88,11 +92,18 @@ p {
 
 .navbar-toggler {
   border: none;
+  height: auto;
 }
 
 .nav-item a {
   margin-left: 25px;
   color: #424C58;
+}
+
+.white {
+  background: #fff;
+  color: #000;
+  z-index: 1;
 }
 
 /* --------------- Navbar End --------------- */
@@ -103,7 +114,7 @@ p {
 
 .bg img {
   position: absolute;
-  margin-top: -50vh;
+  margin-top: -40vh;
   right: 0;
   z-index: -1;
 }
@@ -111,7 +122,7 @@ p {
 .page-1-text h1 {
   max-width: 50%;
   font-size: 21px;
-  margin-top: 30vh;
+  margin-top: 25vh;
   line-height: 1.2;
 }
 
@@ -152,7 +163,7 @@ p {
 /* --------------- Page 1 End --------------- */
 /* --------------- Page 2 --------------- */
 #p2 {
-  margin-top: 20vh;
+  margin-top: 25vh;
 }
 
 .page-2 {
@@ -371,6 +382,11 @@ p {
   width: 532px;
 }
 /* --------------- Hubungi --------------- */
+
+#kontak {
+  position: absolute;
+  margin-top: 0vh;
+}
 
 .bg-kontak {
   position: absolute;
