@@ -13,7 +13,7 @@ for (let item of anchorlinks) {
   });
 }
 
-$(document).on('click', '#navbarNav a, .next', function (e) {
+$(document).on('click', '.next', function (e) {
   e.preventDefault()
   var url = $(this).attr('href')
 
