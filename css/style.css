@@ -65,7 +65,7 @@ p {
 /* --------------- Navbar --------------- */
 .navbar .navbar-brand img {
   width: 75%;
-  margin: 10px;
+  margin: 0px;
 }
 
 .navbar-nav {
@@ -75,9 +75,8 @@ p {
 }
 
 .nav-link {
-  color: #3f3f3f !important;
   border-radius: 10px;
-  margin: 5px;
+  margin: 25px;
 }
 
 .nav-link:hover {
@@ -89,6 +88,11 @@ p {
 
 .navbar-toggler {
   border: none;
+}
+
+.nav-item a {
+  margin-left: 25px;
+  color: #424C58;
 }
 
 /* --------------- Navbar End --------------- */
@@ -104,17 +108,17 @@ p {
   z-index: -1;
 }
 
-.bg1-text h1 {
-  max-width: 41%;
+.page-1-text h1 {
+  max-width: 50%;
   font-size: 21px;
   margin-top: 30vh;
   line-height: 1.2;
 }
 
-.bg1-hero img {
+.page-1-hero img {
   position: relative;
   margin-top: -40vh;
-  width: 40vw;
+  width: 35vw;
 }
 
 .btn {
@@ -132,6 +136,7 @@ p {
   position: relative;
   width: 150px;
   height: 35px;
+  color: white;
 }
 
 .btn1:hover {
@@ -143,22 +148,7 @@ p {
   color: #fff;
 }
 
-.btn2 {
-  background-color: #2B7BE1;
-  width: 150px;
-  height: 35px;
-  position: absolute;
-  right: 0;
-}
 
-.btn2:hover {
-  background-color: rgb(26, 67, 121);
-  transition: 0.5s;
-}
-
-.btn2 a {
-  color: #ffffff;
-}
 /* --------------- Page 1 End --------------- */
 /* --------------- Page 2 --------------- */
 #p2 {
@@ -169,16 +159,16 @@ p {
   margin-top: 30vh;
 }
 
-.page-2 .layanan h1 {
+.page-2 .page-2-text h1 {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.page-2 .layanan p {
+.page-2 .page-2-text p {
   text-align: center;
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -228,27 +218,15 @@ p {
   margin-top: 10px;
 }
 
-.btn3 {
-  background: #2B7BE1;
-  position: absolute;
-  padding: 10px;
-  width: 150px;
-}
-
-.btn3:hover {
-  background: rgb(16, 60, 117);
-  transition: 0.5s;
-}
-
-.btn3 a {
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-}
-
 .icon {
   margin-top: 0vh;
 }
+
+.page-2 .bg2 .col-sm-2 a {
+  font-size: 10px;
+}
+
+/* ------------------- ApaSaja -------------------- */
 
 .apa-saja {
   margin-top: -20px;
@@ -260,7 +238,7 @@ p {
 }
 
 .apa-saja .col-sm-5 p {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .apa-saja .col-sm-3 {
@@ -287,12 +265,18 @@ p {
   display: inline;
 }
 
-/* ------------------------------------- */
+.page-2 .bg2 .row .apa-saja .col-sm-5 button {
+  position: absolute;
+  right: 0;
+  text-decoration: none;
+}
+
+/* ---------------------- Jasa --------------------- */
 
 .page-2 .bg2 .jasa-img {
   background-color: rgba(187, 187, 187, 0.1);
   position: absolute;
-  height: 750px;
+  height: 400px;
   width: 100%;
   left: 0;
 }
@@ -350,11 +334,11 @@ p {
   background-image: url("../img/kanan.png")
 }
 
-/* ------------------- CaraKerja ------------------- */
+/* ------------------- CaraKerja------------------- */
 
 .cara-kerja {
   text-align: right;
-  margin-top: 0px;
+  margin-top: 20vh;
   margin-bottom: 75px;
 }
 
@@ -386,51 +370,491 @@ p {
 .cara-kerja .col-sm-6 img {
   width: 532px;
 }
-/* --------------- Page 2 End --------------- */
-/* --------------- Page 4 --------------- */
+/* --------------- Hubungi --------------- */
+
+.bg-kontak {
+  position: absolute;
+  background-color: rgba(187, 187, 187, 0.1);
+  width: 100%;
+  left: 0;
+  height: 650px;
+  z-index: -1;
+}
+
+.kontak {
+  padding-top: 50px;
+}
+
+.kontak .kontak-text {
+  text-align: center;
+}
+
+.kontak h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.kontak p {
+  font-size: 15px;
+  margin-top: 14px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kontak form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+}
+
+.kontak form > button {
+  margin-top: 25px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.kontak-icon h1 {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.kontak-icon {
+  text-align: center;
+}
+
+.kontak-icon .icon img {
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.kontak-icon .icon img:hover {
+  animation: shakeThatBooty 0.5s linear 1;
+  -webkit-animation: shakeThatBooty 0.5s linear 1;
+  -moz-animation: shakeThatBooty 0.5s linear 1;
+  -o-animation: shakeThatBooty 0.5s linear 1;
+  -ms-animation: shakeThatBooty 0.5s linear 1;
+}
+
+@keyframes shakeThatBooty {
+  33% {
+    transform: rotateZ(10deg);
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    -o-transform: rotateZ(10deg);
+    -ms-transform: rotateZ(10deg);
+  }
+  67% {
+    transform: rotateZ(-10deg);
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    -o-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    -o-transform: rotateZ(10deg);
+    -ms-transform: rotateZ(10deg);
+  }
+}
+
+.kontak-icon .text p {
+  display: inline;
+  margin: 17.5px;
+  font-size: 10px;
+}
+
+
+/* --------------- Tentang --------------- */
 .page-4 {
   margin-top: 100px;
 }
 .page-4 .col-sm-6 h1 {
   font-weight: bold;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .page-4 .col-sm-6 p {
-  font-size: 15px;
-  margin-bottom: 25px;
-}
-
-.page-4 .col-sm-6 .tentang-kontak p {
-  margin-bottom: 5px;
-}
-
-.page-4 .col-sm-1 img {
-  margin-top: 5vh;
-  margin-left: 20%;
-  margin-right: 20%;
-  width: 60%;
-  margin-bottom: 10px;
-}
-
-.page-4 .col-sm-1 p {
   font-size: 12px;
+  margin-bottom: 25px;
+  text-align: justify;
+}
+
+.page-4 .col-sm-5 .tentang-kontak {
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+.semi-footer {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -50px;
+}
+
+.semi-footer p {
+  font-weight: bold;
+  font-size: 10px;
+  display: inline;
+  margin: 15px;
+  color: #2B7BE1;
+}
+
+.semi-footer a {
+  text-decoration: none;
+}
+
+.semi-footer {
+  overflow: hidden;
   text-align: center;
 }
 
-.page-4 .col-sm-1 img:hover {
-  transition: 1.5s;
-  transform: rotate(360deg);
+.semi-footer:before,
+.semi-footer:after {
+  background-color: rgb(207, 207, 207);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
 }
 
+.semi-footer:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.semi-footer:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
 /* --------------- Page 4 End --------------- */
 /* --------------- Footer --------------- */
 footer p {
   text-align: center;
   background: #2B7BE1;
-  font-size: 12px;
+  font-size: 10px;
   padding: 10px;
   color: #fff;
   margin-top: 100px;
 }
+/* --------------- Footer --------------- */
+/* ------------------------------- Page Layanan --------------------------- */
+/* ------------------------------- Page Layanan --------------------------- */
+.layanan h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.layanan h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.layanan p {
+  font-size: 14px;
+}
+
+.layanan .content1 .row .col-sm-4 img {
+  margin-top: 20vh;
+}
+
+.layanan .content1 .row .col-sm-6 {
+  text-align: center;
+}
+
+.layanan .content1 .row .col-sm-6 h1 {
+  margin-top: 25vh;
+  margin-bottom: 15px;
+}
+
+/* ----- Page 2 Layanan ------ */
+
+#p2-2 {
+  margin-top: 30vh;
+}
+
+.layanan .content2 {
+  margin-top: 40vh;
+}
+
+.layanan .content2 .bg {
+  background-color: rgba(187, 187, 187, 0.1);
+  height: 700px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin-top: -12.5vh;
+}
+
+.list-icon .col-sm-3 {
+  margin-bottom: 50px;
+}
+
+.layanan .content2 .list-icon .col-sm-3 img {
+  width: 50px;
+  position: absolute;
+}
+
+.layanan .content2 .list-icon .col-sm-3 h2 {
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.layanan .content2 .list-icon .col-sm-3 p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+/* ------------------------------- Page Work --------------------------- */
+/* ------------------------------- Page Work --------------------------- */
+
+.work {
+  margin-top: 25vh;
+}
+
+.work .content1 {
+  text-align: center;
+}
+
+.work .content1 img {
+  margin-top: -10vh;
+}
+
+.work .content1 h1 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px
+}
+
+.work .content1 p {
+  font-size: 14px;
+}
+
+/* ----- Page 2 Work ----- */
+
+#p3-2 {
+  margin-top: 30vh;
+}
+
+.work .content2 {
+  margin-top: 40vh;
+}
+
+.work .content2 .content2-bg {
+  position: absolute;
+  background: rgba(187, 187, 187, 0.1);
+  left: 0;
+  width: 100%;
+  height: 1550px;
+  margin-top: -15vh;
+}
+
+.work .content2-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.work .content2-text h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.work .content2-text p {
+  font-size: 14px;
+}
+
+/* ----- Tabel ----- */
+
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+#cd-timeline {
+  position: relative;
+  padding: 2em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#cd-timeline::before {
+  /* this is the vertical line */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #d7e4ed;
+}
+@media only screen and (min-width: 1170px) {
+  #cd-timeline {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+  #cd-timeline::before {
+    left: 50%;
+    margin-left: -2px;
+  }
+}
+
+.cd-timeline-block {
+  position: relative;
+  margin: 2em 0;
+}
+.cd-timeline-block::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cd-timeline-block:first-child {
+  margin-top: 0;
+}
+.cd-timeline-block:last-child {
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-block {
+    margin: 2em 0;
+  }
+  .cd-timeline-block:first-child {
+    margin-top: 0;
+  }
+  .cd-timeline-block:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.cd-timeline-img {
+  position: absolute;
+  top: 1.5vh;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+.cd-timeline-img img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.cd-timeline-img.cd-picture {
+  background: #0B4DA1;
+}
+.cd-timeline-img.cd-movie {
+  background: #2B7BE1;
+}
+.cd-timeline-img.cd-location {
+  background: #87B9F9;
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-img {
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    margin-left: -20px;
+    /* Force Hardware Acceleration in WebKit */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+  }
+}
+.cd-timeline-content {
+  position: relative;
+  margin-left: 60px;
+  background: #ffffff;
+  border-radius: 0.25em;
+  padding: 1em;
+  box-shadow: 0 3px 0 #d7e4ed;
+}
+.cd-timeline-content::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cd-timeline-content h2 {
+  color: #303e49;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cd-timeline-content p {
+  margin: 1em 0;
+  line-height: 1.6;
+  font-size: 12px;
+}
+.cd-timeline-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid #ffffff;
+}
+@media only screen and (min-width: 768px) {
+  .cd-timeline-content h2 {
+    font-size: 15px;
+  }
+  .cd-timeline-content p {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1170px) {
+  .cd-timeline-content {
+    margin-left: 5vw;
+    padding: 1.6em;
+    width: 35%;
+  }
+  .cd-timeline-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #ffffff;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content {
+    float: right;
+    margin-right: 5vw;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: #ffffff;
+  }
+}
+/*----------------------------------------------------*/
+
+
