@@ -471,9 +471,8 @@
     height: 1200px;
   }
 }
-
-/* iPhone 8+ */
-@media (max-width: 576px) {
+/* iPhone 8 */
+@media (max-width: 415px) {
    .content1 {
     margin-left: 10vw;
   }
@@ -505,7 +504,7 @@
   }
 
   .layanan .content2 .bg {
-    height: 2050px;
+    height: 2150px;
   }
 
   .list-icon .col-sm-3 {
@@ -519,17 +518,10 @@
   }
 }
 
-/* iPhone 8 */
-@media (max-width: 415px) {
-  .layanan .content2 .bg {
-  height: 2150px;
-  }
-}
-
   /* iPhone 6 */
-@media (max-width: 376) {
+  @media (max-width: 361px) {
   .layanan .content2 .bg {
-  height: 2300px;
+  height: 2250px;
   }
 }
 
