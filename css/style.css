@@ -74,14 +74,12 @@ p {
 }
 
 .navbar-nav {
-  font-size: 12px;
-  margin-top: -10px;
-  font-weight: bold;
+  font-size: 15px;
 }
 
 .nav-link {
   border-radius: 10px;
-  margin: 25px;
+  margin: 0px;
 }
 
 .nav-link:hover {
@@ -98,13 +96,9 @@ p {
 
 .nav-item a {
   margin-left: 25px;
-  color: #424C58;
-}
-
-.white {
-  background: #fff;
-  color: #000;
-  z-index: 1;
+  color: rgb(75, 75, 75) !important;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* --------------- Navbar End --------------- */
@@ -671,7 +665,7 @@ footer p {
   background: rgba(187, 187, 187, 0.1);
   left: 0;
   width: 100%;
-  height: 1650px;
+  height: 1450px;
   margin-top: -20vh;
 }
 

@@ -267,7 +267,7 @@
     width: 50px;
   }
 
-  .page-2 .bg2 .row .apa-saja .col-sm-3 h1 {
+  .page-2 .bg2 .row .apa-saja .col-sm-3 h2 {
     display: block;
     left: 0;
     position: inherit;
@@ -551,7 +551,7 @@
   }
 
   .work .content2 .content2-bg {
-    height: 1250px;
+    height: 1200px;
   }
 }
 
@@ -564,19 +564,23 @@
     margin-bottom: 5vh;
   }
 
+  .work .content1 .col-sm-6 p {
+    text-align: justify;
+  }
+
   .work .content1 .col-sm-6 button {
     left: 0;
   }
 
   .work .content2 .content2-bg {
-    height: 1550px;
+    height: 1450px;
   }
 }
 
 /* iPhone 8 */
-@media (max-width: 415px) {
+@media (max-width: 376px) {
   .work .content2 .content2-bg {
-    height: 1625px;
+    height: 1500px;
   }
 }
 
