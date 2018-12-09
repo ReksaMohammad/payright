@@ -1,4 +1,10 @@
-@media (max-width: 768px) { 
+/* ------------------------------- HOME --------------------------- */
+/* ------------------------------- HOME --------------------------- */
+/* ------------------------------- HOME --------------------------- */
+
+/* Large devices (tablets, less than 768px) */
+ @media (max-width: 768px) { 
+   /* iPad */
   /* --------------- Navbar --------------- */
   .navbar-toggler-icon {
     background-image: url("../img/menu.svg") !important;
@@ -9,8 +15,12 @@
     margin-left: 10px;
     width: 100px;
   }
+  
+  .navbar {
+    margin-top: 2rem;
+  }
 
-  /* --------------- Hero --------------- */
+  /* --------------- Content 1 --------------- */
 
   .page-1-text h1 {
     margin-top: 25vh;
@@ -26,70 +36,98 @@
   }
 
   .btn1 {
-    width: 25%;
-    margin-left: 37.5%;
-    margin-right: 37.5%;
-  }
-  /* --------------- Page 2 --------------- */
-  .page-2 {
-    margin-top: -10vh;
+    width: 12.5rem;
+    margin-left: 40%;
+    margin-right: 40%;
   }
 
-  .page-2 .bg2 .row .apa-saja {
-    margin-top: -5vh;
-  }
+  /* --------------- Content 2 --------------- */
+
   
-  .page-2 .bg2 .row .apa-saja h1 {
-    font-size: 15px; 
+  #p2 {
+    margin-top: 20vh;
   }
 
-  .page-2 .bg2 .row .apa-saja p {
-    font-size: 12px; 
+  .page-2 {
+    margin-top: 15vh;
   }
 
-  .page-2 .bg2 .row .apa-saja button {
-    width: 40%;
-    margin-right: 5%;
+  /* ------------------- Content 3 ------------------- */
+
+  .apa-saja .col-sm-5 button {
+    margin-right: 0;
   }
 
-  /* --------------- Jasa ----------------- */
+  /* ---------------- Content 4 ---------------- */
 
   .page-2 .bg2 .jasa-img {
-    height: 450px;
+    height: 40vh;
   }
-
+  
   .page-2 .bg2 .jasa {
     margin-top: 10vh;
   }
 
-  .page-2 .bg2 .jasa .col-sm-5 {
-  margin-top: -80px;
+  .jasa .img-jasa img {
+    width: 100%;
+    margin-top: 5vh;
   }
 
   .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
-    height: 200px;
+    height: 20vh;
   }
 
-  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner img{
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner img {
     display: none;
   }
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner p {
+    left: 20%;
+    right: 20%;
+    text-align: justify;
+  }
 
-  /* --------------- Cara Kerja --------------- */
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .one p {
+  top: 7.5rem;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .two p {
+    top: 3rem;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .three p {
+    top: 4rem;
+  }
+
+
+  
+
+  /* --------------- Content 5 --------------- */
 
   .cara-kerja {
-    margin-top: 10vh;
+    margin-top: 0vh;
+    margin-bottom: 10vh;
   }
 
   .cara-kerja .col-sm-6 img {
     max-width: 100%;
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
 
-  /* --------------------- Hubungi --------------------- */
+  .cara-kerja .col-sm-5 button {
+    margin-right: 0;
+  }
+
+  /* --------------------- Content 6  --------------------- */
 
   .bg-kontak {
-    height: 700px;
+    height: 65vh;
   }
+  
+  .kontak form > button {
+    margin: 0;
+    margin-top: 5rem;
+  }
+
 
   /* --------------- Icon Contact --------------- */
 
@@ -98,89 +136,75 @@
   }
 }
 
-@media (max-width: 736px) { 
-  /* --------------- Page 1 --------------- */
-  .page-1-text h1 {
-   font-size: 15px;
-   margin-top: 60vh;
-  }
-
+/* Small devices (landscape phones, less than 767px) */
+@media (max-width: 767px) {
+   
   .bg img {
-    display: none;
+    visibility: hidden;
+  }
+  
+  .page-1-hero {
+    visibility: hidden;
   }
 
-  .page-1-hero img {
-    left: -80%;
-    margin-top: -75vh;
-  }
-  /* --------------- Page 1 End --------------- */
-  /* --------------- Page 2 --------------- */
-  .page-2 {
-    margin-top: 20vh;
+  /* Content 3 */
+
+  .apa-saja .col-sm-3 img {
+    visibility: hidden;
   }
 
-  /* ---------------- Fitur ---------------- */
-
-  .page-2 .bg2 .icon .col-sm-2 h1 {
-    font-size: 12px;
+  .apa-saja .col-sm-3 h2 {
+    margin-left: 0;
+    position: relative;
   }
 
-  /* ---------------- Apa Saja ---------------- */
+  /* Content 4 */
 
   .page-2 .bg2 .jasa-img {
-    height: 350px;
+    height: 80vh;
+    margin-top: 0vh;
   }
 
-  .apa-saja .col-sm-5 h1 {
-    font-size: 15px;
-  }
-
-  .apa-saja .col-sm-5 p {
-    font-size: 12px;
-  }
-
-  .page-2 .bg2 .jasa .img-jasa img {
+  .page-2 .bg2 .jasa {
     margin-top: 10vh;
   }
 
-  .page-2 .bg2 .jasa .col-sm-5 h1 {
-    font-size: 15px;
-    margin-top: 20vh;
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
+    height: 30vh;
   }
 
-  .bg-kontak {
-    height: 900px;
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner p {
+    font-size: 1rem;
   }
 
-  .kontak form > button {
-    margin-top: 25px;
-    left: initial;
-    right: initial;
-    transform: initial;
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .one p {
+  top: 2.5rem;
   }
 
-  .semi-footer:before,
-  .semi-footer:after {
-    display: none;
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .two p {
+    top: 0rem;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .three p {
+    top: 0rem;
   }
 }
 
+/*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
-  .navbar .navbar-brand img {
-    margin-top: 10px;
-  }
 
-  /* --------------- Page 1 --------------- */
+  /* --------------- Content 1 --------------- */
   .page-1-text h1 {
-   font-size: 20px;
+   font-size: 2rem;
    margin-top: 50vh;
-   margin-bottom: 20px;
+   margin-bottom: 2rem;
   }
 
   .page-1-hero img {
-    left: 5%;
-    margin-top: -65vh;
-    width: 75vw;
+    visibility: visible;
+    width: 100%;
+    left: 0;
+    margin-top: -70vh;
   }
 
   .btn1 {
@@ -188,10 +212,15 @@
     margin-left: 25%;
     margin-right: 25%;
   }
-  /* --------------- Page 1 End --------------- */
-  /* --------------- Page 2 --------------- */
+
+  /* --------------------- Content 2 --------------------- */
+
+  #p2 {
+    margin-top: 10vh;
+  }
+
   .page-2 {
-    margin-top: 25vh;
+    margin-top: 30vh;
   }
 
   .page-2 .page-2-text h1 {
@@ -199,63 +228,48 @@
     margin-top: -10vh;
   }
 
-  .page-2 .bg2 .row .icon {
-    margin-top: 0vh;
-  }
-
   .row .col-sm-2 h1 {
-    font-size: 18px;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
   }
 
   .row .col-sm-2 p {
-    font-size: 15px;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
   }
+
+  /* ------------------- Content 3 ------------------- */
 
   .page-2 .bg2 img {
-    max-width: 100%;
+    width: 100%;
+    visibility: visible;
   }
-
-  .page-2 .bg2 .col-sm-5 h1 {
-    text-align: center !important;
-    margin-top: -15vh;
-    font-size: 20px;
-    margin-bottom: 30px;
-  }
-
-  .page-2 .bg2 .col-sm-5 h2 {
-    text-align: center !important;
-    font-weight: bold;
-  }
-
-  .page-2 .bg2 .col-sm-5 p {
-    font-size: 15px;
-    text-align: center !important;
-  }
-
-  /* --------------- Apasaja --------------- */
+  
   .page-2 .bg2 .row .apa-saja {
-    margin-top: 20vh;
+    margin-top: 5vh;
   }
 
   .page-2 .bg2 .row .apa-saja .col-sm-5 h1 {
-    font-size: 20px;
+    font-size: 1.8rem;
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: center !important;
   }
 
   .page-2 .bg2 .row .apa-saja .col-sm-5 p {
-    font-size: 15px;
+    font-size: 1.5rem;
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    text-align: justify !important;
+    margin-bottom: 2rem;
   }
 
   .page-2 .bg2 .row .apa-saja .col-sm-5 button {
-    left: 5%;
+    left: 0;
   }
 
   .page-2 .bg2 .row .apa-saja .col-sm-3 {
@@ -271,44 +285,42 @@
     display: block;
     left: 0;
     position: inherit;
-    font-size: 18px;
+    font-size: 1.5rem;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 auto;
   }
 
   .page-2 .bg2 .row .apa-saja .col-sm-3 p {
-    font-size: 15px;
-    margin-top: 15px;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 5rem;
   }
 
   .page-2 .bg2 .row .apa-saja .jasa2 {
     margin-top: -5px;
   }
 
-  /* -------------------- Jasa -------------------- */
+  /* -------------------- Content 4 -------------------- */
 
   .page-2 .bg2 .jasa-img {
-    height: 725px;
+    height: 100vh;
   }
 
   .page-2 .bg2 .jasa .row .img-jasa {
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
 
   .page-2 .bg2 .jasa .row .col-sm-5 h1 {
-    font-size: 20px;
-    margin-top: 15vh;
+    font-size: 2rem;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
   }
 
   .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
-    height: 275px;
+    height: 40vh;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   .page-2 .bg2 .jasa .col-sm-5 .carousel-inner img {
@@ -324,6 +336,7 @@
     left: 10%;
     right: 10%;
     margin-top: 17.5vh;
+    font-size: 1.5rem;
   }
 
   .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .one p {
@@ -346,7 +359,7 @@
     display: none;
   }
 
-  /* ---------------- CaraKerja ---------------- */
+  /* ---------------- Content 5 ---------------- */
 
   .cara-kerja {
     text-align: center;
@@ -356,15 +369,19 @@
   .cara-kerja p {
     text-align: justify;
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
-  .cara-kerja .col-sm-6 img {
-    margin-top: -5vh;
+  .cara-kerja .first {
+    order: 2;
+    margin-top: -10vh;
   }
 
-  /* ------------------------- Hubungi -------------------------*/
+  .cara-kerja .col-sm-5 button {
+    left: -12.5%;
+  }
+
+  /* ------------------------- Content 6 -------------------------*/
 
   .kontak p {
     width: 80%;
@@ -375,27 +392,25 @@
   }
 
   .bg-kontak {
-    height: 950px;
+    height: 110vh;
   }
   
   /* ----------------- Tentang ------------------ */
   .page-4 .col-sm-6 h1 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 
   .page-4 .col-sm-6 p {
     text-align: justify;
     width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   .page-4 .col-sm-5 .tentang-kontak {
     margin-top: 0px;
     width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   .semi-footer p {
@@ -403,59 +418,97 @@
   }
 }
 
-@media (max-width: 415px) {
-  .page-2 .bg2 .jasa {
-    margin-top: -50px;
-  }
-}
+/*  Extra small devices (portrait phones, less than 385px) */
+@media (max-width: 385px) {
 
-@media (max-width: 376px) {
-
-  .page-1-hero img {
-    margin-top: -70vh;
+  /* --------------- Content 1 --------------- */
+  .page-1-text h1 {
+   font-size: 1.8rem;
+   margin-bottom: 1rem;
+   margin-top: 55vh;
   }
 
-  .page-2 .page-2-text h1 {
-    font-size: 18px;
+  /* ------------------- Content 3 ------------------- */
+  
+
+  .page-2 .bg2 .row .apa-saja .col-sm-3 h2 {
+    margin-bottom: 1rem;
   }
 
-  .row .col-sm-2 h1 {
-    font-size: 15px;
-  }
+  /* -------------------- Content 4 -------------------- */
 
   .page-2 .bg2 .jasa-img {
-    height: 1250px;
+    height: 110vh;
   }
+
+  .page-2 .bg2 .jasa .row .img-jasa {
+    margin-top: -5vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner P {
+    font-size: 1.4rem;
+  }
+
+  /* ---------------- Content 5 ---------------- */
+
+  .cara-kerja {
+    margin-top: 10vh;
+  }
+
+  /* ------------------------- Content 6 -------------------------*/
+
+  .kontak p {
+    width: 100%;
+  }
+
+  .kontak form {
+    width: 90%;
+  }
+
+  .kontak-icon {
+    margin-top: 2.5rem;
+  }
+
+  .bg-kontak {
+    height: 120vh;
+  }
+  
+  /* ----------------- Tentang ------------------ */
 }
 
-/* -------------------------------LAYANAN --------------------------- */
-/* -------------------------------LAYANAN --------------------------- */
-/* -------------------------------LAYANAN --------------------------- */
+/* ------------------------------- LAYANAN --------------------------- */
+/* ------------------------------- LAYANAN --------------------------- */
+/* ------------------------------- LAYANAN --------------------------- */
 
-/* ipad */
+/* Large devices (tablets, less than 768px) */
 @media (max-width: 768px) {
   .layanan h1 {
-    font-size: 22px;
+    font-size: 2rem;
   }
 
   .layanan h2 {
-    font-size: 12px;
+    font-size: 1.2rem;
   }
 
   .layanan p {
-    font-size: 15px;
+    font-size: 1.4rem;
   }
 
   .layanan .content1 .row .col-sm-4 img {
     width: 100%;
+    margin-top: 10vh
   }
 
   .layanan .content1 .row .col-sm-6 h1 {
-    margin-top: 15vh;
+    margin-top: 5vh;
+  }
+
+  .layanan .content2 {
+    margin-top: 0;
   }
 
   .layanan .content2 .bg {
-    height: 1000px;
+    height: 105vh;
   }
 
   .layanan .content1 .row .col-sm-6 button {
@@ -464,25 +517,27 @@
   }
 }
 
-/* iPhone 8+ Landscape */
-@media (max-width: 736px) {
+/* Small devices (landscape phones, less than 767px) */
+@media (max-width: 767px) {
 
   .layanan .content2 .bg {
-    height: 1200px;
+    height: 325vh;
   }
 }
-/* iPhone 8 */
-@media (max-width: 415px) {
-   .content1 {
-    margin-left: 10vw;
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+
+  .content1 {
+    margin-right: -7.5%;
+    margin-left: 0;
   }
 
   .layanan .content1 .row .col-sm-4 img {
     margin-top: 10vh;
-  }
-
-  .layanan .content1 .row .col-sm-6 h1 {
-    margin-top: 5vh;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .layanan .content1 .row .col-sm-6 p {
@@ -491,6 +546,8 @@
 
   .layanan .content1 .row .col-sm-6 button {
     left: 0;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
   }
 
   /* -------------------------------Page 2 Layanan --------------------------- */
@@ -504,24 +561,23 @@
   }
 
   .layanan .content2 .bg {
-    height: 2150px;
+    height: 275vh;
   }
 
   .list-icon .col-sm-3 {
     width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   .layanan .content2 .list-icon .col-sm-3 h2 {
-    font-size: 20px;
+    font-size: 2rem;
   }
 }
 
-  /* iPhone 6 */
-  @media (max-width: 361px) {
+/*  Extra small devices (portrait phones, less than 385px) */
+@media (max-width: 385px) {
   .layanan .content2 .bg {
-  height: 2250px;
+  height: 335vh;
   }
 }
 
@@ -529,8 +585,16 @@
 /* ------------------------------- WORK --------------------------- */
 /* ------------------------------- WORK --------------------------- */
 
-/* ipad */
+/* Large devices (tablets, less than 768px) */
 @media (max-width: 768px) {
+
+  .work {
+    margin-top: 10vh;
+  }
+
+  .work .content1 h1 {
+    margin-bottom: 0;
+  }
 
   .work .content1 .col-sm-4 img {
     width: 100%;
@@ -542,18 +606,31 @@
     left: -5vw;
   }
 
+  #p3-2 {
+    margin-top: 10vh;
+  }
+
+  .work .content2 {
+    margin-top: 20vh;
+  }
+
   .work .content2 .content2-bg {
-    height: 1200px;
+    height: 90vh;
+    margin-top: -10vh;
   }
 }
 
-/* iPhone 8+ */
-@media (max-width: 576px) {
+/* Small devices (landscape phones, less than 767px) */
+@media (max-width: 767px) {
 
   .work .content1 .col-sm-4 img {
-    width: 90%;
-    margin-top: -10vh;
-    margin-bottom: 5vh;
+    width: 100%;
+    margin-top: 10vh;
+  }
+
+  .work .content1 .col-sm-6 h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
   }
 
   .work .content1 .col-sm-6 p {
@@ -561,18 +638,35 @@
   }
 
   .work .content1 .col-sm-6 button {
+    left: -15%;
+  }
+
+  .work .content2 .content2-bg {
+    height: 235vh;
+  }
+}
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+  .work .content1 .col-sm-4 img {
+    width: 90%;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+  }
+
+  .work .content1 .col-sm-6 button {
     left: 0;
   }
 
   .work .content2 .content2-bg {
-    height: 1450px;
+    height: 155vh;
   }
 }
 
-/* iPhone 8 */
-@media (max-width: 376px) {
+/*  Extra small devices (portrait phones, less than 385px) */
+@media (max-width: 385px) {
   .work .content2 .content2-bg {
-    height: 1500px;
+    height: 185vh;
   }
 }
 

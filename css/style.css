@@ -15,7 +15,6 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -47,6 +46,7 @@ table {
 body, html {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  font-size: 62.5%;
 }
 h1 {
   color: #303030;
@@ -65,21 +65,21 @@ p {
 /* MAIN */
 /* --------------- Navbar --------------- */
 .navbar .navbar-brand img {
-  width: 150px;
-  margin: 0px;
+  max-height: 3rem;
 }
 
 .navbar {
   transition: 1s;
+  margin-top: 1.5rem;
 }
 
 .navbar-nav {
-  font-size: 15px;
+  font-size: 1.2rem;
 }
 
 .nav-link {
   border-radius: 10px;
-  margin: 0px;
+  margin-top: 1rem;
 }
 
 .nav-link:hover {
@@ -95,10 +95,9 @@ p {
 }
 
 .nav-item a {
-  margin-left: 25px;
   color: rgb(75, 75, 75) !important;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 1rem;
 }
 
 /* --------------- Navbar End --------------- */
@@ -109,16 +108,19 @@ p {
 
 .bg img {
   position: absolute;
-  margin-top: -40vh;
+  margin-top: -45vh;
   right: 0;
   z-index: -1;
 }
 
 .page-1-text h1 {
-  max-width: 50%;
-  font-size: 21px;
-  margin-top: 25vh;
-  line-height: 1.2;
+  max-width: 45%;
+  font-size: 2rem;
+  margin-top: 30vh;
+}
+
+.page-1 .page-1-text {
+  animation-duration: 1.5s;
 }
 
 .page-1-hero img {
@@ -130,18 +132,17 @@ p {
 .btn {
   border: none;
   border-radius: 100px;
-  font-size: 12px;
+  font-size: 1.2rem;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
-  margin-right: 10px;
   cursor: pointer;
-  margin-top: 15px;
+  margin-top: 1.5rem;
 }
 
 .btn1 {
   background-color: #2B7BE1;
   position: relative;
-  width: 150px;
-  height: 35px;
+  width: 15rem;
+  height: 3.2rem;
   color: white;
 }
 
@@ -154,179 +155,165 @@ p {
   color: #fff;
 }
 
+.page-1 a > button {
+  animation-duration: 1.5s;
+}
 
-/* --------------- Page 1 End --------------- */
-/* --------------- Page 2 --------------- */
+.page-1 .col-sm-5 {
+  animation-duration: 1.5s;
+}
+
+/* --------------------- Content 2 --------------------- */
+
 #p2 {
   margin-top: 25vh;
 }
 
 .page-2 {
-  margin-top: 30vh;
+  margin-top: 35vh;
 }
 
 .page-2 .page-2-text h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 10vh;
 }
 
-.page-2 .page-2-text p {
-  text-align: center;
-  font-size: 14px;
-  margin-top: 20px;
-  margin-bottom: 40px;
+.page-2 .page-2-text h1:before,
+.page-2 .page-2-text h1:after {
+  background-color: rgb(207, 207, 207);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 40%;
+}
+
+.page-2 .page-2-text h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.page-2 .page-2-text h1:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 .row .col-sm-2 img {
   max-width: 50px;
   max-height: 50px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .row .col-sm-2 h1 {
   text-align: center;
-  text-transform: uppercase;
   font-weight: bold;
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
 .row .col-sm-2 p {
-  margin-top: 10px;
+  margin-top: 1rem;
   text-align: center;
-  font-size: 12px;
-  margin-bottom: 60px;
+  font-size: 1.2rem;
 }
 
-.page-2 .bg2 img {
-  position: relative;
-  max-width: 40vw;
-}
-
-.page-2 .bg2 .col-sm-5 h1 {
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 65px;
-  margin-bottom: 10px;
-}
-
-.page-2 .bg2 .col-sm-5 h2 {
-  margin-bottom: 15px;
-  margin-top: 10px;
-}
-
-.page-2 .bg2 .col-sm-5 p {
-  font-size: 12px;
-  margin-top: 10px;
-}
-
-.icon {
-  margin-top: 0vh;
-}
-
-.page-2 .bg2 .col-sm-2 a {
-  font-size: 10px;
-}
-
-/* ------------------- ApaSaja -------------------- */
+/* ------------------------- Content 3 ------------------------- */
 
 .apa-saja {
-  margin-top: -20px;
-  margin-bottom: 45px;
+  margin-top: 10vh;
 }
 
 .apa-saja .col-sm-5 h1 {
-  font-size: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .apa-saja .col-sm-5 p {
-  font-size: 14px;
-}
-
-.apa-saja .col-sm-3 {
-  margin-top: 7.5vh;
+  font-size: 1.3rem;
 }
 
 .apa-saja .col-sm-3 img {
-  width: 35px;
-  margin-bottom: 10px;
+  width: 5rem;
+  margin-bottom: 1rem;
 }
 
 .apa-saja .col-sm-3 h2 {
-  margin-left: 10px;
+  margin-left: 1rem;
   position: absolute;
-  font-size: 15px;
+  font-size: 1.4rem;
   display: inline;
 }
 
 .apa-saja .col-sm-3 p {
-  font-size: 12px;
-  margin-bottom: 35px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
 }
 
 .page-2 .bg2 .row .apa-saja .col-sm-5 button {
   position: absolute;
-  right: 0;
+  right: 1rem;
   text-decoration: none;
 }
 
-/* ---------------------- Jasa --------------------- */
+/* ---------------------- Content 4 --------------------- */
 
 .page-2 .bg2 .jasa-img {
   background-color: rgba(187, 187, 187, 0.1);
   position: absolute;
-  height: 400px;
+  height: 80vh;
   width: 100%;
   left: 0;
+  margin-top: 5vh;
 }
 
 .page-2 .bg2 .jasa {
-  margin-top: 50px;
-}
-
-.page-2 .bg2 .jasa .col-sm-5 {
-  margin-top: -20px;
+  margin-top: 20vh;
 }
 .page-2 .bg2 .jasa .col-sm-5 h1 {
   text-align: center;
-  font-size: 20px;
+  font-size: 2rem;
+  font-weight: bold;
 }
+
 .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
   background-color: rgb(255, 255, 255);
-  height: 165px;
+  height: 30vh;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  margin-top: 25px;
-  line-height: 50px;
+  margin-top: 2rem;
+  line-height: 1.2rem;
 }
 
 .page-2 .bg2 .jasa .col-sm-5 .carousel-inner img {
   position: absolute;
-  width: 50px;
+  width: 5rem;
   left: 15%;
-  top: 60px;
+  top: 6rem;
 }
 
 .page-2 .bg2 .jasa .col-sm-5 .carousel-inner p {
   position: absolute;
   left: 30%;
   right: 15%;
+  font-size: 1.2rem;
 }
 
 .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .one p {
-  top: 55px;
+  top: 7rem;
 }
 
 .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .two p {
-  top: 35px;
+  top: 4rem;
 }
 
 .page-2 .bg2 .jasa .col-sm-5 .carousel-inner .three p {
-  top: 40px;
+  top: 5rem;
 }
 
 .page-2 .bg2 .jasa .col-sm-5 .carousel .carousel-control-prev-icon {
@@ -337,60 +324,46 @@ p {
   background-image: url("../img/kanan.png")
 }
 
-/* ------------------- CaraKerja------------------- */
+/* ------------------- Content 5------------------- */
 
 .cara-kerja {
   text-align: right;
   margin-top: 20vh;
-  margin-bottom: 75px;
+  margin-bottom: 15vh;
 }
 
 .cara-kerja h1 {
   font-weight: bold;
-  margin-top: 90px;
-  margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 15vh;
 }
 
 .cara-kerja p {
-  font-size: 14px;
-  margin-bottom: 15px;
-}
-
-.cara-kerja button {
-  background: #2B7BE1;
-  width: 150px;
-  height: 35px;
-  color: #fff;
-  margin-bottom: 60px;
-}
-
-.cara-kerja button:hover {
-  background: rgb(21, 66, 124);
-  transition: 0.5s;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .cara-kerja .col-sm-6 img {
-  width: 532px;
+  width: 100%;
 }
-/* --------------- Hubungi --------------- */
+/* --------------- Content 6 --------------- */
 
 #kontak {
   position: absolute;
-  margin-top: 0vh;
 }
 
 .bg-kontak {
   position: absolute;
   background-color: rgba(187, 187, 187, 0.1);
   width: 100%;
+  height: 100vh;
   left: 0;
-  height: 650px;
   z-index: -1;
 }
 
 .kontak {
-  padding-top: 50px;
+  padding-top: 5rem;
 }
 
 .kontak .kontak-text {
@@ -398,40 +371,35 @@ p {
 }
 
 .kontak h1 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .kontak p {
-  font-size: 15px;
-  margin-top: 14px;
+  font-size: 1.4rem;
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .kontak form {
   width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10vh;
+  margin: 0 auto;
+  margin-top: 5vh;
+  font-size: 1.4rem;
 }
 
 .kontak form > button {
-  margin-top: 25px;
+  margin-top: 5vh;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
 
-.form-control {
-  margin-top: 10px;
-}
-
 .kontak-icon h1 {
   text-align: center;
-  font-size: 15px;
-  margin-top: 20px;
+  font-size: 1.4rem;
+  margin-top: 5vh;
 }
 
 .kontak-icon {
@@ -440,7 +408,6 @@ p {
 
 .kontak-icon .icon img {
   margin: 20px;
-  margin-bottom: 0px;
 }
 
 .kontak-icon .icon img:hover {
@@ -478,42 +445,42 @@ p {
 .kontak-icon .text p {
   display: inline;
   margin: 17.5px;
-  font-size: 10px;
+  font-size: 1rem;
 }
 
 
-/* --------------- Tentang --------------- */
+/* --------------- Content 7 --------------- */
 .page-4 {
-  margin-top: 100px;
+  margin-top: 20vh;
 }
+
 .page-4 .col-sm-6 h1 {
   font-weight: bold;
-  margin-bottom: 15px;
-  font-size: 15px;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .page-4 .col-sm-6 p {
-  font-size: 12px;
-  margin-bottom: 25px;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
 .page-4 .col-sm-5 .tentang-kontak {
-  margin-top: 30px;
-  font-size: 12px;
+  margin-top: 3rem;
+  font-size: 1.2rem;
 }
 
 .semi-footer {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: -50px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 .semi-footer p {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 1rem;
   display: inline;
-  margin: 15px;
+  margin: 1.5rem;
   color: #2B7BE1;
 }
 
@@ -551,27 +518,31 @@ p {
 footer p {
   text-align: center;
   background: #2B7BE1;
-  font-size: 10px;
-  padding: 10px;
+  font-size: 1rem;
+  padding: 1rem;
   color: #fff;
-  margin-top: 100px;
 }
 /* --------------- Footer --------------- */
+
+
 /* ------------------------------- Page Layanan --------------------------- */
 /* ------------------------------- Page Layanan --------------------------- */
+/* ------------------------------- Page Layanan --------------------------- */
+
+
 .layanan h1 {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
 .layanan h2 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.8rem;
   line-height: 1.2;
 }
 
 .layanan p {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .layanan .content1 .row .col-sm-4 img {
@@ -584,7 +555,7 @@ footer p {
 
 .layanan .content1 .row .col-sm-6 h1 {
   margin-top: 25vh;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 /* ----- Page 2 Layanan ------ */
@@ -599,7 +570,7 @@ footer p {
 
 .layanan .content2 .bg {
   background-color: rgba(187, 187, 187, 0.1);
-  height: 750px;
+  height: 100vh;
   position: absolute;
   width: 100%;
   left: 0;
@@ -607,26 +578,27 @@ footer p {
 }
 
 .layanan .list-icon .col-sm-3 {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .layanan .content2 .list-icon .col-sm-3 img {
-  width: 50px;
+  width: 5rem;
   position: absolute;
 }
 
 .layanan .content2 .list-icon .col-sm-3 h2 {
-  margin-left: 60px;
+  margin-left: 6rem;
   margin-top: 5px;
 }
 
 .layanan .content2 .list-icon .col-sm-3 p {
-  margin-top: 20px;
+  margin-top: 2rem;
   text-align: justify;
 }
 
-/* ------------------------------- Page Work --------------------------- */
-/* ------------------------------- Page Work --------------------------- */
+/* --------------------------------- Page Work ----------------------------- */
+/* --------------------------------- Page Work ----------------------------- */
+/* --------------------------------- Page Work ----------------------------- */
 
 .work {
   margin-top: 25vh;
@@ -642,12 +614,12 @@ footer p {
 
 .work .content1 h1 {
   font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 15px
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .work .content1 p {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 /* ----- Page 2 Work ----- */
@@ -665,23 +637,24 @@ footer p {
   background: rgba(187, 187, 187, 0.1);
   left: 0;
   width: 100%;
-  height: 1450px;
+  height: 190vh;
   margin-top: -20vh;
+  z-index: -1;
 }
 
 .work .content2-text {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .work .content2-text h1 {
   font-weight: bold;
-  margin-bottom: 15px;
-  font-size: 20px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
 .work .content2-text p {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 /* ----- Tabel ----- */
@@ -793,9 +766,6 @@ Main components
     height: 40px;
     left: 50%;
     margin-left: -20px;
-    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
   }
 }
 .cd-timeline-content {
