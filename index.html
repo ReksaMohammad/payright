@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <link rel="stylesheet" href="css/aos.css">
+  <link href="css/jquery.growl.css" rel="stylesheet" type="text/css"/>
+
   
   <title>Payright | Payroll System Consultant | Aplikasi PAYROLL Indonesia | Sistem Penggajian | FREE | Software Payroll | Human
   Resource Indonesia | HRD | Payroll Software</title>
@@ -45,6 +47,9 @@
           </li>
           <li class="nav-item mx-auto">
             <a class="nav-link" href="#kontak">KONTAK</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link" href="#">KARIR</a>
           </li>
         </ul>
       </div>
@@ -212,74 +217,36 @@
       <form id="form_kontak" method="post" data-aos="fade-up" data-aos-delay="200" name="forms" action="action.php">
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputEmail4">Nama Perusahaan</label>
-            <input type="text" name="name" class="form-control" id="inputEmail" placeholder="Nama Perusahaan Anda">
+            <input type="text" name="name" class="form-control" id="inputName" placeholder="Nama Perusahaan Anda ...">
           </div>
           <div class="form-group col-md-6">
-            <label for="inputState">Jenis Perusahaan</label>
-            <select name="jenis_perusahaan" id="inputState" class="form-control">
-              <option selected value="0">Pilih...</option>
-              <option value="1">Kecil (1 - 50 Karyawan)</option>
-              <option value="2">Sedang (50 - 100 Karyawan)</option>
-              <option value="3">Menengah (100 - 500 Karyawan)</option>
-              <option value="4">Besar (500 - 1000 Karyawan)</option>
+            <select name="jenis_perusahaan" id="inputJenis" class="form-control">
+              <option selected value="0">Ukuran Perusahaan...</option>
+              <option value="1">Kecil (1 - 100 Karyawan)</option>
+              <option value="2">Sedang (101 - 300 Karyawan)</option>
+              <option value="3">Menengah (301 - 1000 Karyawan)</option>
+              <option value="4">Besar (1001 - 3000 Karyawan)</option>
+              <option value="5">Korporasi (3001+ Karyawan)</option>
             </select>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputEmail4">No. Telepon</label>
-            <input type="number" name="phone" class="form-control" id="inputEmail" placeholder="No. Telepon Anda">
+            <input type="text" name="jabatan" class="form-control" id="inputJabatan" placeholder="Jabatan Anda ...">
           </div>
           <div class="form-group col-md-6">
-            <label for="inputPassword4">Email</label>
-            <input type="email" name="email" class="form-control" id="inputPassword" placeholder="Email Anda">
+            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email Anda ...">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label for="inputCity">Kota</label>
-            <input type="text" name="kota" class="form-control" id="inputCity" placeholder="Kota Anda">
+            <input type="text" name="kota" class="form-control" id="inputCity" placeholder="Kota Anda ...">
           </div>
           <div class="form-group col-md-6">
-            <label for="inputState">Provinsi</label>
-            <select name="provinsi" id="inputState" class="form-control">
-              <option selected value="34">Pilih...</option>
-              <option value="0">Aceh</option>
-              <option value="1">Bali</option>
-              <option value="2">Banten</option>
-              <option value="3">Bengkulu</option>
-              <option value="4">DKI Yogyakarta</option>
-              <option value="5">DKI Jakarta</option>
-              <option value="6">Gorontalo</option>
-              <option value="7">Jambi</option>
-              <option value="8">Jawa Barat</option>
-              <option value="9">Jawa Tengah</option>
-              <option value="10">Jawa Timur</option>
-              <option value="11">Kalimantan Barat</option>
-              <option value="12">Kalimantan Selatan</option>
-              <option value="13">Kalimantan Tengah</option>
-              <option value="14">Kalimantan Timur</option>
-              <option value="15">Kalimantan Utara</option>
-              <option value="16">Kepulauan Bangka Belitung</option>
-              <option value="17">Kepulauan Riau</option>
-              <option value="18">Lampung</option>
-              <option value="19">Maluku</option>
-              <option value="20">Maluku Utara</option>
-              <option value="21">Nusa Tenggara Barat</option>
-              <option value="22">Nusa Tenggara Timur</option>
-              <option value="23">Papua</option>
-              <option value="24">Papua Barat</option>
-              <option value="25">Riau</option>
-              <option value="26">Sulawesi Barat</option>
-              <option value="27">Sulawesi Selatan</option>
-              <option value="28">Sulawesi Tengah</option>
-              <option value="29">Sulawesi Tenggara</option>
-              <option value="30">Sulawesi Utara</option>
-              <option value="31">Sumatera Barat</option>
-              <option value="32">Sumatera Selatan</option>
-              <option value="33">Sumatera Utara</option>"
-            </select>
+            <input type="number" name="phone" class="form-control" id="inputNumber" placeholder="No. Telepon Anda ...">
+          </div>
+          <div class="form-group col-md-12">
+            <input type="text" name="pesan" class="form-control form-control-lg" id="inputText" placeholder="Pesan ...">
           </div>
         </div>
         <button type="submit" id="submit_button" class="btn btn1">Kirim</button>
@@ -309,9 +276,9 @@
         <div class="col-sm-1"></div>
         <div class="col-sm-5">
           <div class="tentang-kontak">
-            <p><span class="bold">ADDRESS: </span>Jl. Pasir Kaliki No.146, Pasir Kaliki, Cicendo,<br>Kota Bandung, Jawa Barat
+            <p><span class="bold">ALAMAT: </span>Jl. Pasir Kaliki No.146, Pasir Kaliki, Cicendo,<br>Kota Bandung, Jawa Barat
               40173</p>
-            <p><span class="bold">PHONE: </span>0851-0358-9119</p>
+            <p><span class="bold">TELEPON: </span>0851-0358-9119</p>
             <p><span class="bold">EMAIL: </span>marketing@payrightsystem.com</p>
           </div>
         </div>
@@ -339,10 +306,13 @@
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
   <script src="js/aos.js"></script>
+  <script src="js/jquery.growl.js" type="text/javascript"></script>
   <script>
     AOS.init({
       duration: 1000
     });
   </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.0/jquery-confirm.min.js"></script>
 </body>
 </html>

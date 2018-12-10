@@ -120,7 +120,7 @@
   /* --------------------- Content 6  --------------------- */
 
   .bg-kontak {
-    height: 65vh;
+    height: 75vh;
   }
   
   .kontak form > button {
@@ -136,7 +136,7 @@
   }
 }
 
-/* Small devices (landscape phones, less than 767px) */
+/* Small devices (landscape phones, less than 747px) */
 @media (max-width: 747px) {
    
   .bg img {
@@ -392,7 +392,7 @@
   }
 
   .bg-kontak {
-    height: 110vh;
+    height: 120vh;
   }
   
   /* ----------------- Tentang ------------------ */
@@ -470,7 +470,7 @@
   }
 
   .bg-kontak {
-    height: 120vh;
+    height: 130vh;
   }
 }
 
@@ -515,7 +515,7 @@
   /* ------------------------- Content 6 -------------------------*/
 
   .bg-kontak {
-    height: 145vh;
+    height: 160vh;
   }
 
   /* ------------------------- SemiFooter ------------------------- */

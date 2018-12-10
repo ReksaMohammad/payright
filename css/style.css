@@ -357,7 +357,7 @@ p {
   position: absolute;
   background-color: rgba(187, 187, 187, 0.1);
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   left: 0;
   z-index: -1;
 }
@@ -380,6 +380,19 @@ p {
   font-size: 1.4rem;
   width: 50%;
   margin: 0 auto;
+}
+
+form {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2.5rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+form > label, input, select {
+  font-size: 1.2rem !important;
+  border-radius: 10px !important;
+  margin-top: 1rem;
 }
 
 .kontak form {
