@@ -472,8 +472,58 @@
   .bg-kontak {
     height: 120vh;
   }
+}
+
+/*  Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px){
+   /* --------------- Content 1 --------------- */
+  .page-1-text h1 {
+   font-size: 1.6rem;
+   margin-bottom: 1rem;
+   margin-top: 50vh;
+  }
+
+  /* ------------------- Content 3 ------------------- */
   
-  /* ----------------- Tentang ------------------ */
+
+  .page-2 .bg2 .row .apa-saja .col-sm-3 h2 {
+    margin-bottom: 1rem;
+  }
+
+  .page-2 .bg2 .row .apa-saja .col-sm-5 {
+    margin-bottom: 10vh;
+  }
+
+  /* -------------------- Content 4 -------------------- */
+
+  .page-2 .bg2 .jasa-img {
+    height: 120vh;
+  }
+
+  .page-2 .bg2 .jasa .row .img-jasa {
+    margin-top: -5vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner {
+    height: 45vh;
+  }
+
+  .page-2 .bg2 .jasa .col-sm-5 .carousel-inner P {
+    font-size: 1.2rem;
+  }
+
+  /* ------------------------- Content 6 -------------------------*/
+
+  .bg-kontak {
+    height: 145vh;
+  }
+
+  /* ------------------------- SemiFooter ------------------------- */
+
+  .semi-footer p {
+    font-size: 0.8rem;
+  }
+
 }
 
 /* ------------------------------- LAYANAN --------------------------- */
