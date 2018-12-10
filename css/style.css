@@ -476,6 +476,7 @@ form > label, input, select {
 .page-4 .col-sm-6 p {
   font-size: 1.2rem;
   text-align: justify;
+  margin-bottom: 1rem;
 }
 
 .page-4 .col-sm-5 .tentang-kontak {

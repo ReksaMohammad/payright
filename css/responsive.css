@@ -384,7 +384,11 @@
   /* ------------------------- Content 6 -------------------------*/
 
   .kontak p {
-    width: 80%;
+    width: 100%;
+  }
+
+  form {
+    padding: 1rem;
   }
 
   .kontak-icon {
