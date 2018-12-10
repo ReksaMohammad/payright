@@ -137,7 +137,7 @@
 }
 
 /* Small devices (landscape phones, less than 767px) */
-@media (max-width: 767px) {
+@media (max-width: 747px) {
    
   .bg img {
     visibility: hidden;
@@ -568,7 +568,7 @@
 }
 
 /* Small devices (landscape phones, less than 767px) */
-@media (max-width: 767px) {
+@media (max-width: 747px) {
 
   .layanan .content2 .bg {
     height: 325vh;
@@ -631,6 +631,15 @@
   }
 }
 
+/*  Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+
+  .layanan .content2 .bg {
+  height: 465vh;
+  }
+
+}
+
 /* ------------------------------- WORK --------------------------- */
 /* ------------------------------- WORK --------------------------- */
 /* ------------------------------- WORK --------------------------- */
@@ -671,7 +680,7 @@
 }
 
 /* Small devices (landscape phones, less than 767px) */
-@media (max-width: 767px) {
+@media (max-width: 747px) {
 
   .work .content1 .col-sm-4 img {
     width: 100%;
@@ -720,26 +729,33 @@
   }
 }
 
+/*  Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+  .work .content2 .content2-bg {
+    height: 265vh;
+  }
+}
+
 /* ------------------------------- Secure --------------------------- */
 /* ------------------------------- Secure --------------------------- */
 /* ------------------------------- Secure --------------------------- */
 
-/* ipad */
+/* Large devices (tablets, less than 768px) */
 @media (max-width: 768px) {
 
   /* Content 1 */
 
   .secure button {
     width: 50%;
-    left: -10%;
+    left: -15%;
   }
 
   .secure h1 {
-    font-size: 18px;
+    font-size: 1.8rem;
   }
 
   .secure h2 {
-    font-size: 16px;
+    font-size: 1.6rem;
   }
 
   .secure {
@@ -758,7 +774,7 @@
   }
 
   .secure .content2 .content2-bg {
-    height: 525px;
+    height: 55vh;
     margin-top: -5vh;
   }
 
@@ -767,7 +783,7 @@
   }
 
   .secure .content2 .content2-icon .col-sm-1 img {
-    width: 50px;
+    width: 5rem;
   }
 
   .secure .content2 .content2-icon .col-sm-4 h2 {
@@ -785,6 +801,10 @@
     margin-top: 7.5vh;
   }
 
+  .secure .content3 p {
+    text-align: justify;
+  }
+
   /* Content 4 */
 
   #p4-4 {
@@ -792,13 +812,17 @@
   }
 
   #content4-bg {
-    height: 525px;
+    height: 50vh;
     margin-top: -10vh;
   }
 
   .secure .content4 img {
     width: 120%;
     margin-top: 5vh;
+  }
+
+  .secure .content4 p {
+    text-align: justify;
   }
 
   .secure .content4 .col-sm-6 {
@@ -816,10 +840,14 @@
     margin-top: 7.5vh;
   }
 
+  .secure .content5 p {
+    text-align: justify;
+  }
+
   /* Content 6 */
 
   #content6-bg {
-    height: 425px;
+    height: 40vh;
   }
 
   .secure .content6 .col-sm-6 {
@@ -830,14 +858,18 @@
     width: 100%;
     margin-top: -10vh;
   }
+
+  .secure .content6 p {
+    text-align: justify;
+  }
   
   .secure .content6 {
     margin-bottom: 20vh;
   }
 }
 
-/* iPhone 8+ Landscape */
-@media (max-width: 736px) {
+/* Small devices (landscape phones, less than 767px) */
+@media (max-width: 747px) {
 
   /* Content 1 */
 
@@ -857,24 +889,24 @@
   }
 
   .secure .content2 .content2-bg {
-    height: 625px;
+    height: 155vh;
     margin-top: -10vh;
   }
 
   .secure .content2 .content2-icon .col-sm-1 img {
-    width: 40px;
+    width: 4rem;
   }
 
   /* Content 4 */
 
   #content4-bg {
-    height: 425px;
+    height: 100vh;
   }
 
   /* Content 6 */
 
   #content6-bg {
-    height: 250px;
+    height: 60vh;
   }
 
   .secure .content6 .col-sm-6 {
@@ -891,7 +923,7 @@
   }
 }
 
-/* iPhone 8+ */
+/*  Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) {
 
   /* Content 1 */
@@ -901,8 +933,8 @@
   }
 
   .secure .content1 img {
-    width: 100%;
-    margin-bottom: 20px;
+    width: 90%;
+    margin-bottom: 2rem;
   }
 
   .secure .content1 button {
@@ -912,17 +944,17 @@
 
   .secure .content1 p {
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
   }
 
   /* Content 2 */
 
   .secure .content2 .content2-bg {
-    height: 900px;
+    height: 125vh;
   }
 
   .secure .content2 .content2-icon .col-sm-1 img {
-    width: 50px;
+    width: 5rem;
     margin-left: 5%;
   }
 
@@ -933,8 +965,8 @@
   }
 
   .secure .content2 .content2-icon .col-sm-4 p {
-    margin-top: 10px;
-    font-size: 14px;
+    margin-top: 1rem;
+    font-size: 1.4rem;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -955,32 +987,30 @@
   }
 
   .secure .content3 img {
-    width: 90%;
-    margin-top: 10vh;
+    width: 80%;
+    margin-top: 5vh;
   }
 
   .secure .content3 p {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: justify;
   }
 
   /* Content 4 */
 
   #content4-bg {
-    height: 750px;
+    height: 100vh;
   }
 
   .secure .content4 img {
     width: 90%;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
   }
 
   .secure .content4 p {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: justify;
   }
 
@@ -993,15 +1023,14 @@
 
   .secure .content5 p {
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: justify;
   }
 
   /* Content 6 */
 
   #content6-bg {
-    height: 575px;
+    height: 75vh;
   }
 
   .secure .content6 img {
@@ -1017,48 +1046,51 @@
   }
 }
 
-/* iPhone 8 */
-@media (max-width: 415px) {
+/*  Extra small devices (portrait phones, less than 385px) */
+@media (max-width: 385px) {
 
   /* Content 2 */
 
   .secure .content2 .content2-bg {
-    height: 900px;
-  }
-
-  .secure .content2 .content2-icon .col-sm-1 img {
-    width: 50px;  
+    height: 140vh;
   }
 
   .secure .content2 .content2-icon .col-sm-4 h2 {
     margin-left: 25%;
   }
 
-  /* Content 3 */
+  /* Content 4 */
 
-  #first {
-    order: 2;
-  }
-
-  #second {
-    order: 1;
-  }
-
-  .secure .content3 img {
-    width: 90%;
-    margin-top: 10vh;
-  }
-
-  .secure .content3 p {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
+  #content4-bg {
+    height: 110vh;
   }
 
   /* Content 6 */
 
   #content6-bg {
-    height: 550px;
+    height: 80vh;
   }
+}
+
+/*  Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) {
+
+  /* Content 2 */
+
+  .secure .content2 .content2-bg {
+    height: 175vh;
+  }
+
+  /* Content 4 */
+
+  #content4-bg {
+    height: 135vh;
+  }
+
+  /* Content 6 */
+
+  #content6-bg {
+    height: 95vh;
+  }
+
 }
